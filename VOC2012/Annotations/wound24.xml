@@ -1,0 +1,26 @@
+<annotation>
+	<folder>VOC2012</folder>
+	<filename>wound24.jpg</filename>
+	<path>/home/sina/Desktop/Detection_wound/VOC2012/JPEGImages/wound24.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>250</width>
+		<height>250</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wound</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>117</xmin>
+			<ymin>7</ymin>
+			<xmax>146</xmax>
+			<ymax>212</ymax>
+		</bndbox>
+	</object>
+</annotation>

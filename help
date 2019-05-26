@@ -1,0 +1,4 @@
+python3 object_detection/dataset_tools/create_pascal_tf_record.py --data_dir=/home/sina/Desktop/Detection_wound --year=VOC2012 --output_path=/home/sina/Desktop/Detection_wound/pascal.record --label_map_path=/home/sina/Desktop/Detection_wound/label.pbtxt --set=trainval
+
+
+python3 object_detection/legacy/train.py --train_dir=/home/sina/Desktop/Detection Weed/train --pipeline_config_path=/home/sina/Desktop/Detection Weed/faster_rcnn_resnet101_coco.config
